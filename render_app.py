@@ -69,7 +69,7 @@ def webhook():
         ))
 
     payload = {
-        "model": "openrouter/free",
+        "model": "liquid/lfm-3-1.7b:free",
         "messages": [
             {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user", "content": message}
