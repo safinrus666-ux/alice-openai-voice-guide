@@ -74,7 +74,7 @@ def webhook():
             {"role": "system", "content": SYSTEM_PROMPT},
             {"role": "user", "content": message}
         ],
-        "max_tokens": 300
+        "max_tokens": 200
     }
 
     api_request = urllib.request.Request(
